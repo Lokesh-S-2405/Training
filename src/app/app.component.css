@@ -21,3 +21,11 @@ li a{
 /* .nav{
     margin-right: 60px; 
 } */
+
+footer .container-fluid{
+    background-color:  blue;
+    height: 50px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    
+}

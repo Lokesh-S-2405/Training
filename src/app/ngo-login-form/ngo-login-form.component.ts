@@ -25,7 +25,7 @@ export class NgoLoginFormComponent implements OnInit {
     ]),
     password: new FormControl('',[
       Validators.required,
-      Validators.pattern("[a-zA-Z0-9]+\W"),
+      // Validators.pattern("[a-zA-Z0-9]+\W"),
       Validators.minLength(6)
     ]),
     cpassword: new FormControl('',[
